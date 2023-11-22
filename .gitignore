@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+
+# Compiled output
+/build/
+/dist/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Environment variables
+.env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Dependency directory
+/jspm_packages/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
