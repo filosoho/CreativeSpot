@@ -682,10 +682,6 @@
     margin-top: 0;
   }
 
-  .main-nav li {
-    margin-right: 0.3rem;
-  }
-
   .sticky .main-nav li a:link,
   .sticky .main-nav li a:visited {
     font-size: 0.75rem;
@@ -704,7 +700,7 @@
   }
 
   header {
-    height: 50vh;
+    height: 100vh;
   }
 
   /* .span_1_of_2 {
@@ -925,6 +921,7 @@
   #formName.form-control,
   #formEmail.form-control {
     height: 3rem;
+    width: 100%;
   }
 
   .btn.btn-primary {

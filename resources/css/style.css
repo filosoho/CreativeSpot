@@ -874,6 +874,7 @@ input[type="submit"]:active {
   color: #fff;
   background-attachment: fixed;
   padding: 0;
+  background-position: 50% 50%;
 }
 
 .overlay-testimonials {
@@ -904,7 +905,7 @@ blockquote {
   align-items: flex-start;
   justify-content: space-between;
   gap: 1rem;
-  height: -webkit-fill-available;
+  /* height: -webkit-fill-available; */
 }
 
 blockquote:before {
