@@ -47,60 +47,65 @@
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css" />
   </head>
   <body>
-    <header>
-      <!-- Navbar -->
-      <nav>
-        <div class="row">
+    <!-- Navbar -->
+    <nav>
+      <div class="nav-row sticky">
+        <div>
           <img
             src="resources/img/CreativeSpot-logo.png"
             alt="Creative Spot logo"
             class="logo"
           />
+        </div>
+        <div>
           <ul class="main-nav js--main-nav">
             <li><a href="#home">Home</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#about">About Us</a></li>
           </ul>
         </div>
-      </nav>
-      <!-- Header area -->
+      </div>
+    </nav>
+    <!-- Header -->
+    <header>
       <div class="header-box">
         <div class="header-text-box">
           <h1>Creative Spot</h1>
-          <h2>Where Innovation Meets Imagination in Digital</h2>
+          <h2>Where Innovation Meets Imagination</h2>
         </div>
         <a class="btn btn-full js--scroll-to-contact" href="#">Join The Spot</a>
       </div>
     </header>
     <!-- About -->
     <section class="section-about js--section-about" id="about">
-      <div class="row js--about">
-        <div class="col span_1_of_2 about-box">
-          <h2 class="about-heading">
-            Your Gateway to Innovating through Art and Technology
-          </h2>
-          <p class="about-para">
-            At Creative Spot, we believe that the fusion of art and technology
-            is where innovation truly thrives.
-            <br />
-            <br />
-            We have created a dynamic and welcoming online platform that serves
-            as a haven for artists, tech enthusiasts, and visionaries alike.
-            <br />
-            <br />
-            Our mission is simple yet transformative: to provide a space where
-            the creative spirit soars, and where the possibilities of human
-            imagination are realized through the marriage of artistry and
-            technology.
-          </p>
-          <a class="btn btn-ghost" href="#">Read more</a>
-        </div>
-        <div class="col span_1_of_2 about-box">
-          <img
-            src="resources/img/about.png"
-            alt="Creative Spot app on Laptop"
-            class="laptop-screen"
-          />
+      <div class="js--about about-container">
+        <div class="about-box">
+          <div class="about-text-box">
+            <h2 class="about-heading">Innovating through Art and Technology</h2>
+            <p class="about-para">
+              At Creative Spot, we believe that the fusion of art and technology
+              is where innovation truly thrives.
+              <br />
+              <br />
+              We have created a dynamic and welcoming online platform that
+              serves as a haven for artists, tech enthusiasts, and visionaries
+              alike.
+              <br />
+              <br />
+              Our mission is simple yet transformative: to provide a space where
+              the creative spirit soars, and where the possibilities of human
+              imagination are realized through the marriage of artistry and
+              technology.
+            </p>
+            <a class="btn btn-ghost" href="#about">Read more</a>
+          </div>
+          <div class="about-laptop">
+            <img
+              src="resources/img/about.png"
+              alt="Creative Spot app on Laptop"
+              class="laptop-screen"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -109,7 +114,7 @@
       <div class="col span_12_of_12">
         <h2 class="define-heading">What Defines Us</h2>
       </div>
-      <div class="row js--section-define">
+      <div class="row-define js--section-define">
         <div class="col span_1_of_2 define-box js--define">
           <img
             src="vendors/img/1.png"
@@ -135,7 +140,7 @@
           </div>
         </div>
       </div>
-      <div class="row js--section-define">
+      <div class="row-define row-define-right js--section-define">
         <div class="col span_1_of_2 define-box-right">
           <div class="what-defines-us">
             <h3 class="define-us">Innovation at Its Core</h3>
@@ -161,7 +166,7 @@
           />
         </div>
       </div>
-      <div class="row js--section-define">
+      <div class="row-define js--section-define">
         <div class="col span_1_of_2 define-box js--define">
           <img
             src="vendors/img/3.png"
@@ -184,7 +189,7 @@
           </div>
         </div>
       </div>
-      <div class="row js--section-define">
+      <div class="row-define row-define-right js--section-define">
         <div class="col span_1_of_2 define-box-right">
           <div class="what-defines-us">
             <h3 class="define-us">Your Journey with Us</h3>
@@ -214,7 +219,7 @@
           />
         </div>
       </div>
-      <div class="row js--section-define">
+      <div class="row-define js--section-define">
         <div class="col span_1_of_2 define-box js--define">
           <img src="vendors/img/5.png" alt="Join Us" class="define-img img" />
         </div>
@@ -244,158 +249,142 @@
           resources and connect with a global community of creatives.
         </h3>
       </div>
-      <div class="row">
+      <div class="row services-container">
         <div class="col span_1_of_4 service-card js--service-card">
-          <img class="icon-pic" src="vendors/icons/1.png" />
+          <div class="icon-pic">
+            <img src="vendors/icons/1.png" />
+          </div>
           <h4 class="service-para-heading">Creative Collaboration</h4>
           <p>
             We foster collaboration by connecting through our platform artists,
             designers, technologists, and innovators from around the world to
             facilitate meaningful connections.
           </p>
-          <div class="card-container">
-            <div class="card">
-              <!-- Card content goes here -->
-              <p>
-                At Creative Spot, we believe that collaboration is the heartbeat
-                of creativity. Our "Creative Collaboration" section is a vibrant
-                space where you can connect with like-minded individuals and
-                spark new ideas. Whether you're an artist seeking a partner for
-                your next project, a designer looking to team up with a
-                technologist, or an innovator searching for collaborators to
-                bring your vision to life, this is the place for you. We provide
-                intuitive tools to facilitate collaboration, from project
-                brainstorming and planning to real-time collaboration on
-                creative ventures. Explore the possibilities, discover new
-                talents, and create groundbreaking works of art together. Join
-                our collaborative community and be part of something
-                extraordinary.
-              </p>
-              <button class="close-button">Close</button>
-            </div>
-          </div>
           <button class="service-read-more">Read More</button>
         </div>
         <div class="col span_1_of_4 service-card js--service-card">
-          <img class="icon-pic" src="vendors/icons/2.png" />
+          <div class="icon-pic">
+            <img src="vendors/icons/2.png" />
+          </div>
           <h4 class="service-para-heading">Showcase Your Work</h4>
           <p>
             Our gallery is a platform for you to exhibit your creations to a
             global audience. Share your art, design projects or technological
             innovations to gain recognition for your talent.
           </p>
-          <div class="card-container">
-            <div class="card">
-              <!-- Card content goes here -->
-              <p>
-                In our "Showcase Your Work" section, we invite you to step into
-                the spotlight and share your creative masterpieces with the
-                world. Whether you're an emerging artist or an established
-                creator, this platform is your canvas. Present your artwork,
-                design projects, technological innovations, and more to a global
-                audience eager to appreciate your talent. Our user-friendly
-                interface allows you to easily upload and curate your portfolio,
-                ensuring your work receives the recognition it deserves. Through
-                Creative Spot, your creations will shine brightly, inspiring
-                others and fostering connections within the creative community.
-              </p>
-              <button class="close-button">Close</button>
-            </div>
-          </div>
           <button class="service-read-more">Read More</button>
         </div>
         <div class="col span_1_of_4 service-card js--service-card">
-          <img class="icon-pic" src="vendors/icons/3.png" />
+          <div class="icon-pic">
+            <img src="vendors/icons/3.png" />
+          </div>
           <h4 class="service-para-heading">Resource Library</h4>
           <p>
             Dive into our comprehensive resource library, where you'll find
             inspiration, reference materials, and tools to aid your creative
             journey and create innovative solutions.
           </p>
-          <div class="card-container">
-            <div class="card">
-              <!-- Card content goes here -->
-              <p>
-                Dive into our extensive "Resource Library" and embark on a
-                journey of continuous learning and inspiration. Our curated
-                collection of resources encompasses a vast array of topics, from
-                tutorials and guides to reference materials and tools. Whether
-                you're looking to expand your skills, delve deeper into your
-                chosen discipline, or simply seek fresh ideas, you'll find it
-                all here. Our resource library is a valuable companion on your
-                creative journey, offering the knowledge and support you need to
-                excel. Explore, discover, and unlock your full creative
-                potential with the wealth of resources at your fingertips.
-              </p>
-              <button class="close-button">Close</button>
-            </div>
-          </div>
           <button class="service-read-more">Read More</button>
         </div>
         <div class="col span_1_of_4 service-card js--service-card">
-          <img class="icon-pic" src="vendors/icons/4.png" />
+          <div class="icon-pic">
+            <img src="vendors/icons/4.png" />
+          </div>
           <h4 class="service-para-heading">Community Support</h4>
           <p>
-            We're a tightly-knit and supportive community of creatives. Join a
-            supportive and diverse community where you can seek advice, share
-            experiences, and find mentorship.
+            We're a tightly-knit community of creatives. Join a supportive and
+            diverse community where you can seek advice, share experiences, and
+            find mentorship.
           </p>
-          <div class="card-container">
-            <div class="card">
-              <!-- Card content goes here -->
-              <p>
-                Our "Community Support" section is where you'll find your
-                tribe—a group of individuals who share your passion for art,
-                technology, creativity, and design. Engage in lively
-                discussions, seek advice, share experiences, and provide
-                mentorship to fellow members. We understand that the creative
-                process can sometimes be challenging, but with our community's
-                unwavering support, you'll never feel alone on your journey.
-                Join us in building a network of connections that uplift and
-                inspire, turning your creative aspirations into reality.
-                Together, we'll shape the future of art, technology, and design.
-              </p>
-              <button class="close-button">Close</button>
-            </div>
-          </div>
           <button class="service-read-more">Read More</button>
+        </div>
+      </div>
+      <div class="overlay"></div>
+      <div class="card-container">
+        <div class="card">
+          <!-- Card content goes here -->
+          <p>
+            At Creative Spot, we believe that collaboration is the heartbeat of
+            creativity. Our "Creative Collaboration" section is a vibrant space
+            where you can connect with like-minded individuals and spark new
+            ideas. Whether you're an artist seeking a partner for your next
+            project, a designer looking to team up with a technologist, or an
+            innovator searching for collaborators to bring your vision to life,
+            this is the place for you. We provide intuitive tools to facilitate
+            collaboration, from project brainstorming and planning to real-time
+            collaboration on creative ventures. Explore the possibilities,
+            discover new talents, and create groundbreaking works of art
+            together. Join our collaborative community and be part of something
+            extraordinary.
+          </p>
+          <button class="close-button">Close</button>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <!-- Card content goes here -->
+          <p>
+            In our "Showcase Your Work" section, we invite you to step into the
+            spotlight and share your creative masterpieces with the world.
+            Whether you're an emerging artist or an established creator, this
+            platform is your canvas. Present your artwork, design projects,
+            technological innovations, and more to a global audience eager to
+            appreciate your talent. Our user-friendly interface allows you to
+            easily upload and curate your portfolio, ensuring your work receives
+            the recognition it deserves. Through Creative Spot, your creations
+            will shine brightly, inspiring others and fostering connections
+            within the creative community.
+          </p>
+          <button class="close-button">Close</button>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <!-- Card content goes here -->
+          <p>
+            Dive into our extensive "Resource Library" and embark on a journey
+            of continuous learning and inspiration. Our curated collection of
+            resources encompasses a vast array of topics, from tutorials and
+            guides to reference materials and tools. Whether you're looking to
+            expand your skills, delve deeper into your chosen discipline, or
+            simply seek fresh ideas, you'll find it all here. Our resource
+            library is a valuable companion on your creative journey, offering
+            the knowledge and support you need to excel. Explore, discover, and
+            unlock your full creative potential with the wealth of resources at
+            your fingertips.
+          </p>
+          <button class="close-button">Close</button>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <!-- Card content goes here -->
+          <p>
+            Our "Community Support" section is where you'll find your tribe—a
+            group of individuals who share your passion for art, technology,
+            creativity, and design. Engage in lively discussions, seek advice,
+            share experiences, and provide mentorship to fellow members. We
+            understand that the creative process can sometimes be challenging,
+            but with our community's unwavering support, you'll never feel alone
+            on your journey. Join us in building a network of connections that
+            uplift and inspire, turning your creative aspirations into reality.
+            Together, we'll shape the future of art, technology, and design.
+          </p>
+          <button class="close-button">Close</button>
         </div>
       </div>
     </section>
     <!-- Gallery -->
     <section class="section-gallery js--section-about" id="about">
       <div class="row js--about">
-        <div class="photo-justify">
-          <div class="col span_1_of_2 gallery-box">
-            <div class="photo-grid">
-              <div class="photo work-photo">
-                <img src="resources/img/1.jpg" alt="Arts And Crafts" />
-                <p class="work-para">Arts And Crafts</p>
-              </div>
-              <div class="photo work-photo">
-                <img
-                  src="resources/img/2.jpg"
-                  alt="Multidisciplinary Projects"
-                />
-                <p class="work-para">Multidisciplinary Projects</p>
-              </div>
-              <div class="photo work-photo">
-                <img src="resources/img/3.jpg" alt="Innovative Technology" />
-                <p class="work-para">Innovative Technology</p>
-              </div>
-              <div class="photo work-photo">
-                <img src="resources/img/4.jpg" alt="Design" />
-                <p class="work-para">Design</p>
-              </div>
-            </div>
-          </div>
-          <div class="col span_1_of_2 gallery-box gallery-para">
+        <div class="gallery-container">
+          <div class="gallery-box gallery-para">
             <h2 class="work-heading">Gallery</h2>
             <h3 class="gallery">
               Our gallery is a mesmerizing showcase of the diverse disciplines
               thriving within our platform's vibrant community.
             </h3>
-            <h3 class="gallery-bottom">
+            <p class="gallery-bottom">
               Here, you'll witness the intersection of innovation, art,
               technology, creativity, and design like never before. From
               stunning visual artworks that paint vivid narratives to
@@ -407,68 +396,100 @@
               be inspired, and embark on a journey through a kaleidoscope of
               disciplines, each representing a unique facet of the Creative Spot
               experience.
-            </h3>
+            </p>
+          </div>
+          <div class="gallery-box">
+            <div class="photo-grid">
+              <div class="photo">
+                <div class="work-photo">
+                  <img src="resources/img/1.png" alt="Arts And Crafts" />
+                </div>
+                <p class="work-para">Arts And Crafts</p>
+              </div>
+              <div class="photo">
+                <div class="work-photo">
+                  <img
+                    src="resources/img/2.png"
+                    alt="Multidisciplinary Projects"
+                  />
+                </div>
+                <p class="work-para">Multidisciplinary Projects</p>
+              </div>
+              <div class="photo">
+                <div class="work-photo">
+                  <img src="resources/img/3.png" alt="Innovative Technology" />
+                </div>
+                <p class="work-para">Innovative Technology</p>
+              </div>
+              <div class="photo">
+                <div class="work-photo">
+                  <img src="resources/img/4.png" alt="Design" />
+                </div>
+                <p class="work-para">Design</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Testimonials -->
     <section class="section-testimonials">
-      <div class="row">
+      <div class="overlay-testimonials">
         <h2 class="testimonials-heading">Our Testimonials</h2>
-      </div>
-      <div class="row quotes-box">
-        <div class="col span_1_of_3 testimonial-box">
-          <blockquote>
-            Creative Spot has been a game-changer for my career as an artist.
-            The platform's user-friendly interface and global reach have allowed
-            me to showcase my artwork to a wider audience and connect with
-            fellow artists. The supportive community and valuable resources have
-            been instrumental in my creative journey. I highly recommend
-            Creative Spot to any artist looking to expand their horizons.
-            <cite><img src="resources/img/8.png" />Sarah Johnson</cite>
-          </blockquote>
-        </div>
-        <div class="col span_1_of_3 testimonial-box">
-          <blockquote>
-            As a designer, I've always sought inspiration and collaboration.
-            Creative Spot has provided me with a space to do just that. The
-            collaborative projects I've been a part of through this platform
-            have been incredibly fulfilling, and I've had the chance to learn
-            from some truly talented individuals. The resource library is a
-            goldmine for design references. Creative Spot has become my go-to
-            hub for all things creative.
-            <cite><img src="resources/img/9.png" />Alex Chen</cite>
-          </blockquote>
-        </div>
-        <div class="col span_1_of_3 testimonial-box">
-          <blockquote>
-            I've always had a passion for technology and innovation. Creative
-            Spot's diverse community has allowed me to connect with like-minded
-            individuals and even find co-founders for my tech startup. The
-            platform's resource library is a treasure trove of knowledge,
-            helping me stay updated with the latest trends. Creative Spot has
-            been an invaluable resource for anyone with a passion for technology
-            and innovation.
-            <cite><img src="resources/img/10.png" />Jenna Smith</cite>
-          </blockquote>
+        <div class="row quotes-box">
+          <div class="testimonial-box">
+            <blockquote>
+              Creative Spot has been a game-changer for my career as an artist.
+              The platform's user-friendly interface and global reach have
+              allowed me to showcase my artwork to a wider audience and connect
+              with fellow artists. The supportive community and valuable
+              resources have been instrumental in my creative journey. I highly
+              recommend Creative Spot to any artist looking to expand their
+              horizons.
+              <cite><img src="resources/img/8.png" />Sarah Johnson</cite>
+            </blockquote>
+          </div>
+          <div class="testimonial-box">
+            <blockquote>
+              As a designer, I've always sought inspiration and collaboration.
+              Creative Spot has provided me with a space to do just that. The
+              collaborative projects I've been a part of through this platform
+              have been incredibly fulfilling, and I've had the chance to learn
+              from some truly talented individuals. The resource library is a
+              goldmine for design references. Creative Spot has become my go-to
+              hub for all things creative.
+              <cite><img src="resources/img/9.png" />Alex Chen</cite>
+            </blockquote>
+          </div>
+          <div class="testimonial-box">
+            <blockquote>
+              I've always had a passion for technology and innovation. Creative
+              Spot's diverse community has allowed me to connect with
+              like-minded individuals and even find co-founders for my tech
+              startup. The platform's resource library is a treasure trove of
+              knowledge, helping me stay updated with the latest trends.
+              Creative Spot has been an invaluable resource for anyone with a
+              passion for technology and innovation.
+              <cite><img src="resources/img/10.png" />Jenna Smith</cite>
+            </blockquote>
+          </div>
         </div>
       </div>
     </section>
     <!-- Packages -->
-    <section class="section-packages js--wp-2">
+    <section class="section-packages js--wp-2" id="packages">
       <div class="row">
         <h2 class="packages-heading">Find Your Ideal Package Here</h2>
       </div>
       <div class="row price-boxes">
-        <div class="col span_1_of_3">
+        <div class="price-deal">
           <div class="package-box">
             <div>
-              <h4>Art & Innovation Explorer</h4>
+              <h4>Art Explorer</h4>
               <p class="package-price">£14.99<span> /month</span></p>
               <p class="package-price-duration">
-                Dive into the world of art and innovation with our Art &
-                Innovation Explorer Package. This package includes:
+                Dive into the world of art and innovation with our Art Explorer
+                Package. This package includes:
               </p>
             </div>
             <div>
@@ -491,18 +512,18 @@
               </ul>
             </div>
             <div class="package-btn">
-              <a href="#" class="btn btn-full">Sign up now</a>
+              <a href="#packages" class="btn btn-full">Sign up now</a>
             </div>
           </div>
         </div>
-        <div class="col span_1_of_3">
+        <div class="price-deal">
           <div class="package-box">
             <div>
               <h4>Creative Fusion</h4>
               <p class="package-price">£24.99<span> /month</span></p>
               <p class="package-price-duration">
                 Unleash your creative fusion with our Creative Fusion Package.
-                This package offers everything from the Explorer Package, plus:
+                This package offers everything from the Explorer Package +
               </p>
             </div>
             <div>
@@ -524,18 +545,18 @@
               </ul>
             </div>
             <div class="package-btn">
-              <a href="#" class="btn btn-full">Sign up now</a>
+              <a href="#packages" class="btn btn-full">Sign up now</a>
             </div>
           </div>
         </div>
-        <div class="col span_1_of_3">
+        <div class="price-deal">
           <div class="package-box js--package-box-enterprise">
             <div>
               <h4>Artistic Innovator</h4>
               <p class="package-price">£39.99<span> /month</span></p>
               <p class="package-price-duration">
                 Unlock your creativity with the Artistic Innovator Membership.
-                It includes all previous package features, and adds:
+                It includes all previous packages features +
               </p>
             </div>
             <div>
@@ -558,7 +579,7 @@
               </ul>
             </div>
             <div class="package-btn">
-              <a href="#" class="btn btn-full">Sign up now</a>
+              <a href="#packages" class="btn btn-full">Sign up now</a>
             </div>
           </div>
         </div>
@@ -566,14 +587,11 @@
     </section>
     <!-- Form -->
     <section class="section-form js--section-form" id="contact">
-      <div class="row">
+      <div class="form-row">
+        <h2 class="title">Talk to Us</h2>
         <div class="container">
-          <div class="mail-gif col span_1_of_2">
-            <img class="contact-img" src="resources/img/mail.png" alt="Email" />
-          </div>
-          <div class="form-box col span_1_of_2">
+          <div class="form-box">
             <form>
-              <h1 class="title">Talk to Us</h1>
               <div class="form-group">
                 <input
                   type="text"
@@ -600,10 +618,13 @@
               </div>
               <div>
                 <button type="submit" class="btn btn-primary" tabindex="-1">
-                  Send message
+                  Send
                 </button>
               </div>
             </form>
+          </div>
+          <div class="mail-gif">
+            <img class="contact-img" src="resources/img/mail.png" alt="Email" />
           </div>
         </div>
       </div>
