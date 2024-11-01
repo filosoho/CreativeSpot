@@ -732,6 +732,7 @@
 
   .section-gallery {
     padding-bottom: 30px;
+    padding-inline: 20px;
   }
 
   .gallery-box:last-child {
