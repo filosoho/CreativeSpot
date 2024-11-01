@@ -93,6 +93,24 @@ p {
   line-height: 1.2;
 }
 
+a,
+label {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:focus,
+a:active,
+label:focus,
+label:active {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
 /******  HEADER ******/
 
 header {
