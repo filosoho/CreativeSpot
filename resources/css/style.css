@@ -23,6 +23,10 @@ body {
   overflow-x: hidden;
 }
 
+li {
+  list-style: none;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -973,7 +977,7 @@ cite img {
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin: 4rem;
 }
 
@@ -986,7 +990,7 @@ cite img {
 }
 
 .contact-img {
-  max-width: 90%;
+  max-width: 80%;
   transform: scaleX(-1);
   border-radius: 20px;
 }

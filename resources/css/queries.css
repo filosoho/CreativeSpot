@@ -255,7 +255,10 @@
   }
 
   .container {
-    margin: 2rem;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 1rem;
+    gap: 2rem;
   }
 
   form .title {
@@ -310,6 +313,10 @@
 
   section {
     padding: 40px 0 70px;
+  }
+
+  .main-nav {
+    width: 45vw;
   }
 
   header {
@@ -519,12 +526,6 @@
     margin-top: 10px;
   }
 
-  .container {
-    flex-direction: column-reverse;
-    margin: 1rem;
-    gap: 2rem;
-  }
-
   form .title {
     font-size: 24px;
   }
@@ -603,7 +604,7 @@
   }
 
   .main-nav {
-    width: 50vw;
+    width: 60vw;
   }
 
   .logo {
