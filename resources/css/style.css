@@ -133,16 +133,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(28, 0, 13, 80%)),
-      to(rgba(7, 0, 15, 70%))
-    ),
-    url(img/1.png);
-
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -150,8 +140,7 @@ header {
       from(rgb(37, 19, 9, 85%)),
       to(rgb(7, 0, 15, 85%))
     ),
-    url(img/1.png);
-
+    url("/resources/css/img/1.avif");
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -644,7 +633,7 @@ input[type="submit"]:active {
   max-width: 800px;
 }
 
-/***** SEVICES *****/
+/***** SERVICES *****/
 
 .services-container {
   display: flex;
@@ -819,7 +808,7 @@ input[type="submit"]:active {
 
 .section-testimonials {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(img/cover.jpg);
+    url("/resources/css/img/testimonials.avif");
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
