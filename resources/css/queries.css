@@ -1,9 +1,5 @@
-/*Big tablet to 1200px - widths smaller than the 1140px row*/
+/*Big tablet to 1200px */
 @media only screen and (max-width: 1200px) {
-  body {
-    /* font-size: 14px; */
-  }
-
   h4 {
     margin-bottom: 30px;
   }
@@ -36,14 +32,6 @@
     text-align: center;
   }
 
-  .gallery-box:last-child {
-    /* padding-left: 1%; */
-  }
-
-  .gallery-box:first-child {
-    /* padding: 0 5%; */
-  }
-
   .price-boxes {
     max-width: 90%;
   }
@@ -57,9 +45,6 @@
 
 /*Small tablet to Big tablet - 768px to 1023px*/
 @media only screen and (max-width: 1023px) {
-  body {
-  }
-
   h1 {
     font-size: 4rem;
   }
@@ -128,10 +113,6 @@
     border-radius: 20px;
   }
 
-  /* .section-about {
-	    padding-bottom: 400px;
-	} */
-
   section {
     display: flex;
     flex-direction: column;
@@ -169,7 +150,6 @@
 
   .gallery {
     font-size: 1rem;
-    margin: 30px 0;
   }
 
   .gallery-box:first-child {
@@ -210,10 +190,6 @@
     margin: 10px 0;
   }
 
-  /* .service-card {
-    padding: 1% 1%;
-  } */
-
   .overlay-testimonials {
     padding: 80px 60px;
   }
@@ -239,10 +215,6 @@
 
   cite img {
     height: 80px;
-  }
-
-  .span_1_of_2 {
-    margin-right: 0px !important;
   }
 
   .price-boxes {
@@ -282,17 +254,8 @@
     width: 80%;
   }
 
-  .mail-gif {
-  }
-
   .container {
     margin: 2rem;
-  }
-
-  .contact-img {
-  }
-
-  form {
   }
 
   form .title {
@@ -301,9 +264,6 @@
 
   textarea#formMessage {
     width: 400px;
-  }
-
-  .section-packages {
   }
 
   .icon-small {
@@ -365,19 +325,6 @@
     font-size: 0.8rem;
   }
 
-  /* 
-	.span-1-of-4 {
-		width: 40%;
-	}
-
-	.span-1-of-2 {
-		width: 45%;
-	}
-
-	.span_1_of_3 {
-	    width: 100%;
-	} */
-
   .about-box {
     flex-direction: column;
   }
@@ -403,7 +350,7 @@
     width: 60%;
   }
 
-  h2.work-heading,
+  h2.gallery-heading,
   .define-heading,
   h2.service-heading,
   h2.testimonials-heading {
@@ -416,23 +363,6 @@
 
   h2.testimonials-heading {
     margin-bottom: 0;
-  }
-
-  /* .section-about {
-	    padding-bottom: 375px;
-	}
-
-	.about-box:last-child {
-	    text-align: center;
-	    padding: 5% 0 5%;
-	}
-
-	.about-box:first-child {
-	    padding: 0 8%;
-	} */
-
-  .section-define {
-    /* gap: 3rem; */
   }
 
   .section-define:first-child {
@@ -495,17 +425,6 @@
     text-align: center;
     margin-bottom: 20px;
   }
-
-  /* .define-box-right:first-child {
-    padding: 0 5%;
-  } */
-
-  /* .define-box:last-child {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0 3%;
-  } */
 
   h3.define-us:after {
     margin: 0;
@@ -624,11 +543,6 @@
     padding: 0.5rem 1.5rem;
   }
 
-  /* .span_1_of_2 {
-    width: 49.2%;
-    margin-right: 0px !important;
-  } */
-
   .mail-gif {
     max-width: 75%;
   }
@@ -641,10 +555,6 @@
 
 /*Small phones - 0 to 480px*/
 @media only screen and (max-width: 480px) {
-  /* body {
-    font-size: 8px;
-  } */
-
   h1 {
     font-size: 2.2rem;
   }
@@ -704,24 +614,6 @@
     height: 100vh;
   }
 
-  /* .span_1_of_2 {
-    width: 49.2%;
-  }
-
-  .span_1_of_3 {
-    width: 80%;
-  }
-
-  .span_1_of_4 {
-    width: 80%;
-  } */
-
-  /* .main-nav {
-    list-style: none;
-    margin-top: 20px;
-    margin-right: auto;
-  } */
-
   .header-box {
     width: 250px;
   }
@@ -744,15 +636,6 @@
   .about-text-box {
     gap: 1.5rem;
   }
-  /* .about-box:first-child {
-    text-align: center;
-    padding: 0 10%;
-  }
-
-  .about-box:last-child {
-    text-align: center;
-    padding: 0;
-  } */
 
   .laptop-screen {
     width: 80%;
@@ -789,14 +672,6 @@
   .define-para {
     max-width: 90%;
   }
-
-  /* .define-box-right:first-child {
-    padding: 0 2%;
-  } */
-
-  /* .define-heading {
-    margin: 30px 0 0px 0;
-  } */
 
   .section-services {
     margin: 20px 0;
@@ -884,10 +759,6 @@
     margin-top: 0px;
     margin-bottom: 0;
   }
-
-  /* .package-box div:last-child {
-    padding: 15px 15px 25px 15px !important;
-  } */
 
   .package-box {
     margin-bottom: 20px;
