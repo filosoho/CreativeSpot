@@ -38,6 +38,26 @@ $(document).ready(function () {
   // Add the animate__animated class to all images.
   $(".js--define img, .js--define-right img").addClass("animate__animated");
 
+  $(document).ready(function () {
+    /*--- Sticky Navigation ---*/
+    $(".js--section-gallery").waypoint(function (direction) {
+      if (direction == "down") {
+        $("nav").addClass("sticky");
+      } else {
+        $("nav").removeClass("sticky");
+      }
+    });
+
+    $(".js--section-gallery").waypoint(
+      function (direction) {
+        $(".js--gallery").addClass("animate__animated animate__fadeIn");
+      },
+      {
+        offset: "55%",
+      }
+    );
+  });
+
   // Function to check if an element is in the viewport
   function isElementInViewport(el) {
     var rect = el[0].getBoundingClientRect();
@@ -202,4 +222,12 @@ document.querySelector(".overlay").addEventListener("click", function () {
     .forEach(function (cardContainer) {
       cardContainer.style.display = "none";
     });
+});
+
+const hamburger = document.getElementById("hamburger");
+const mainNav = document.querySelector(".main-nav");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  mainNav.classList.toggle("active");
 });
